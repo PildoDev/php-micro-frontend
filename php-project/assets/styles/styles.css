@@ -1,0 +1,38 @@
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5em;
+    margin-top: 2em;
+
+    a {
+        color: white;
+    }
+}
+
+#react-content {
+    /* background-color: #00D8FF; */
+    /* background-color: #e1fbff; */
+    background-color: #eff5ff;
+    padding: 10px;
+}
+
+.nav-link-hover:hover {
+    background-color: var(--bs-gray-400);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.nav-link {
+    transition: all 0.7s;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
